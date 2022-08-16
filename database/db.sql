@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS prj;
+
+use prj;
+
+CREATE TABLE users(
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50),
+  password VARCHAR(255),
+  permit VARCHAR(50),
+  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+describe users;
