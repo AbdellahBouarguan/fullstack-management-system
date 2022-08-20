@@ -88,7 +88,7 @@ export default function User(params) {
           <table className="sjil">
             <thead>
               <tr>
-                <th></th>
+                <th>N°</th>
                 <th>...</th>
                 <th>...</th>
               </tr>
